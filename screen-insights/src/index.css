@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    padding: 24px 0;
+
+    background: 
+        radial-gradient(circle at top left,  #75c9c833, transparent 30%), 
+        radial-gradient(circle at top right, #80a1d426, transparent 35%), 
+        radial-gradient(circle at bottom left, #c0b9dd33, transparent 30%), 
+        linear-gradient(135deg, #ded9e2, #c0b9dde3, #80a2d4ab, #75c9c892);
+
+    box-sizing: border-box;
+}
