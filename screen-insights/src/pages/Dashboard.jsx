@@ -1,9 +1,11 @@
-import styles from './Dashboard.module.css'
+import styles from './Dashboard.module.css';
+
+import Header from '../components/Header';
 
 function Dashboard() {
     return (
         <main className={styles.container}>
-
+            <Header />
         </main>
     )
 }
