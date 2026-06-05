@@ -26,3 +26,11 @@ h1 {
 h2 {
     font-size: 1.2rem;
 }
+
+div[class*="_card_"] {
+    max-width: 500px;
+    padding: 15px;
+    
+    background: #fffaf0;
+    border-radius: 20px;
+}
