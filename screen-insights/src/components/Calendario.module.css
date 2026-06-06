@@ -33,3 +33,14 @@ button {
     grid-template-columns: repeat(7, 1fr);
     gap: 10px;
 }
+
+/* MOBILE */
+@media (max-width: 800px) {
+    .card {
+        max-width: 210px;
+    } 
+
+    button {
+        font-size: .8rem;
+    }
+}
