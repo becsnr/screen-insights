@@ -4,6 +4,7 @@ import Header from '../components/Header';
 import TempoTotal from '../components/TempoTotal';
 import Calendario from '../components/Calendario';
 import Media from '../components/Media';
+import Destaque from '../components/Destaque';
 
 function Dashboard() {
     return (
@@ -19,6 +20,8 @@ function Dashboard() {
                     <Calendario />
                 </div>
             </section>
+
+            <Destaque />
         </main>
     )
 }
