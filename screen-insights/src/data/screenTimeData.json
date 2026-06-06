@@ -1,0 +1,1412 @@
+[
+    {
+        "date": "01-09-2026",
+        "notifications": 100,
+        "unlocks": 45,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 40 
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 120
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 30
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 200
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 20
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 45
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 20
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 50
+            }
+        ]
+    },
+    {
+        "date": "02-09-2026",
+        "notifications": 50,
+        "unlocks": 105,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 160
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 25
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 0
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 125
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 5
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 20
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 15
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 35
+            }
+        ]
+    },
+    {
+        "date": "03-09-2026",
+        "notifications": 57,
+        "unlocks": 32,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 35
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 40
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 65
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 75
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 2
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 0
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 0
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 10
+            }
+        ]
+    },
+    {
+        "date": "04-09-2026",
+        "notifications": 96,
+        "unlocks": 50,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 40 
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 40
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 22
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 55
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 0
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 0
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 10
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 0
+            }
+        ]
+    },
+    {
+        "date": "05-09-2026",
+        "notifications": 67,
+        "unlocks": 40,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 35
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 25
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 0
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 35
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 0
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 0
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 14
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 0
+            }
+        ]
+    },
+    {
+        "date": "06-09-2026",
+        "notifications": 78,
+        "unlocks": 32,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 55
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 40
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 0
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 135
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 10
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 38
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 20
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 20
+            }
+        ]
+    },
+    {
+        "date": "07-09-2026",
+        "notifications": 15,
+        "unlocks": 25,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 20
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 45
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 20
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 200
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 2
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 0
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 10
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 40
+            }
+        ]
+    },
+    {
+        "date": "08-09-2026",
+        "notifications": 95,
+        "unlocks": 49,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 75
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 60
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 10
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 125
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 5
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 30
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 20
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 0
+            }
+        ]
+    },
+    {
+        "date": "09-09-2026",
+        "notifications": 45,
+        "unlocks": 12,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 12
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 10
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 50
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 35
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 0
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 0
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 25
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 40
+            }
+        ]
+    },
+    {
+        "date": "10-09-2026",
+        "notifications": 89,
+        "unlocks": 15,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 23
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 5
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 0
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 65
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 2
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 0
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 17
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 0
+            }
+        ]
+    },
+    {
+        "date": "11-09-2026",
+        "notifications": 78,
+        "unlocks": 50,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 0
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 75
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 14
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 95
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 20
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 40
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 50
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 65
+            }
+        ]
+    },
+    {
+        "date": "12-09-2026",
+        "notifications": 174,
+        "unlocks": 31,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 90 
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 35
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 135
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 39
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 5
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 0
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 5
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 40
+            }
+        ]
+    },
+    {
+        "date": "13-09-2026",
+        "notifications": 180,
+        "unlocks": 25,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 14
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 39
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 30
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 150
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 2
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 0
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 10
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 0
+            }
+        ]
+    },
+    {
+        "date": "14-09-2026",
+        "notifications": 100,
+        "unlocks": 56,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 21
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 29
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 0
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 250
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 20
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 0
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 30
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 0
+            }
+        ]
+    },
+    {
+        "date": "15-09-2026",
+        "notifications": 140,
+        "unlocks": 37,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 40 
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 40
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 60
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 60
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 0
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 5
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 15
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 10
+            }
+        ]
+    },
+    {
+        "date": "16-09-2026",
+        "notifications": 200,
+        "unlocks": 25,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 40
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 20
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 70
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 90
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 0
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 0
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 15
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 0
+            }
+        ]
+    },
+    {
+        "date": "17-09-2026",
+        "notifications": 145,
+        "unlocks": 27,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 56 
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 32
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 0
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 89
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 0
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 8
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 16
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 20
+            }
+        ]
+    },
+    {
+        "date": "18-09-2026",
+        "notifications": 200,
+        "unlocks": 30,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 30 
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 35
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 68
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 60
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 2
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 0
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 18
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 40
+            }
+        ]
+    },
+    {
+        "date": "19-09-2026",
+        "notifications": 165,
+        "unlocks": 43,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 40
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 40
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 45
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 55
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 0
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 0
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 0
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 40
+            }
+        ]
+    },
+    {
+        "date": "20-09-2026",
+        "notifications": 176,
+        "unlocks": 40,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 40
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 40
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 40
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 40
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 2
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 4
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 13
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 20
+            }
+        ]
+    },
+    {
+        "date": "21-09-2026",
+        "notifications": 185,
+        "unlocks": 43,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 40
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 35
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 34
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 60
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 0
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 0
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 0
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 0
+            }
+        ]
+    },
+    {
+        "date": "22-09-2026",
+        "notifications": 167,
+        "unlocks": 67,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 67 
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 67
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 67
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 67
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 6
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 7
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 17
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 67
+            }
+        ]
+    },
+    {
+        "date": "23-09-2026",
+        "notifications": 147,
+        "unlocks": 35,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 40
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 40
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 29
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 54
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 1
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 40
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 20
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 40
+            }
+        ]
+    },
+    {
+        "date": "24-09-2026",
+        "notifications": 154,
+        "unlocks": 23,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 65
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 25
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 42
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 54
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 35
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 45
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 26
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 35
+            }
+        ]
+    },
+    {
+        "date": "25-09-2026",
+        "notifications": 145,
+        "unlocks": 24,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 40
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 40
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 40
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 68
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 0
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 2
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 19
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 0
+            }
+        ]
+    },
+    {
+        "date": "26-09-2026",
+        "notifications": 156,
+        "unlocks": 56,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 40
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 39
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 85
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 65
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 0
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 0
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 10
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 12
+            }
+        ]
+    },
+    {
+        "date": "27-09-2026",
+        "notifications": 89,
+        "unlocks": 48,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 35 
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 38
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 56
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 60
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 1
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 5
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 12
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 15
+            }
+        ]
+    },
+    {
+        "date": "28-09-2026",
+        "notifications": 165,
+        "unlocks": 37,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 30
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 36
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 56
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 95
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 0
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 0
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 0
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 0
+            }
+        ]
+    },
+    {
+        "date": "29-09-2026",
+        "notifications": 156,
+        "unlocks": 23,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes":  15
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 25
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 0
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 36
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 0
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 0
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 0
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 0
+            }
+        ]
+    },
+    {
+        "date": "30-09-2026",
+        "notifications": 198,
+        "unlocks": 32,
+        "apps": [
+            {
+                "name": "Instagram",
+                "category": "Redes Sociais",
+                "minutes": 40 
+            },
+            {
+                "name": "TikTok",
+                "category": "Redes Sociais",
+                "minutes": 40
+            },
+            {
+                "name": "YouTube",
+                "category": "Vídeo",
+                "minutes": 95
+            },
+            {
+                "name": "Kindle",
+                "category": "Leitura",
+                "minutes": 81
+            },
+            {
+                "name": "Spotify",
+                "category": "Música",
+                "minutes": 2
+            },
+            {
+                "name": "Pinterest",
+                "category": "Redes Sociais",
+                "minutes": 5
+            },
+            {
+                "name": "Sudoku",
+                "category": "Jogos",
+                "minutes": 20
+            },
+            {
+                "name": "Brawl Stars",
+                "category": "Jogos",
+                "minutes": 59
+            }
+        ]
+    }
+]
