@@ -2,10 +2,19 @@
     display: flex;
     flex-direction: column;
     gap: 5px;
+
+    max-width: 500px;
 }
 
 .top {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+/* MOBILE */
+@media (max-width: 800px) {
+    .card {
+        max-width: 400px;
+    }
 }
