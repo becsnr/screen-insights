@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 250px;
+}
+
+/* MOBILE */
+@media (max-width: 800px) {
+    .card {
+        max-width: 210px;
+    } 
+}

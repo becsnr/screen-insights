@@ -3,6 +3,7 @@ import styles from './Dashboard.module.css';
 import Header from '../components/Header';
 import TempoTotal from '../components/TempoTotal';
 import Calendario from '../components/Calendario';
+import Media from '../components/Media';
 
 function Dashboard() {
     return (
@@ -12,7 +13,11 @@ function Dashboard() {
             <section className={styles.cards}>
                 <TempoTotal />
 
-                <Calendario />
+                <div className={styles.grupo}>
+                    <Media />
+
+                    <Calendario />
+                </div>
             </section>
         </main>
     )
