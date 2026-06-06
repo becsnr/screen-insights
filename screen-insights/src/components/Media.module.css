@@ -1,7 +1,9 @@
 .container {
     display: flex;
     flex-direction: column;
-    gap: 5px;
+    gap: 10px;
+
+    max-width: 250px;
 }
 
 .card {
@@ -9,12 +11,12 @@
     flex-direction: column;
     gap: 10px;
 
-    width: 250px;
+    max-width: 250px;
 }
 
 /* MOBILE */
 @media (max-width: 800px) {
     .card {
-        max-width: 210px;
+        max-width: 200px;
     } 
 }

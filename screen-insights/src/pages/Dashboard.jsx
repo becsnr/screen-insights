@@ -14,13 +14,12 @@ function Dashboard() {
 
             <section className={styles.cards}>
                 <TempoTotal />
+
                 <div className={styles.grupo}>
-                    
-                    <div className={styles.grupo}>
-                        <Media />
-                        <Calendario />
-                    </div>
+                    <Media />
+                    <Calendario />
                 </div>
+                
                 <Destaque />
                 <Categoria />
             </section>
