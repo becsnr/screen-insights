@@ -2,6 +2,7 @@ import styles from './Dashboard.module.css';
 
 import Header from '../components/Header';
 import TempoTotal from '../components/TempoTotal';
+import Calendario from '../components/Calendario';
 
 function Dashboard() {
     return (
@@ -10,6 +11,8 @@ function Dashboard() {
 
             <section className={styles.cards}>
                 <TempoTotal />
+
+                <Calendario />
             </section>
         </main>
     )

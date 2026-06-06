@@ -28,7 +28,7 @@ h2 {
 }
 
 div[class*="_card_"] {
-    max-width: 500px;
+    max-width: 400px;
     padding: 15px;
     
     background: #fffaf0;
