@@ -11,16 +11,19 @@ import { useState } from 'react';
 import { getDayData } from '../services/getDate';
 
 function Dashboard({ data }) {
-    const [selectedDate, setSelectedDate] = useState(null);
+    const [selectedDate, setSelectedDate] = useState(data[7].date);
 
     const dayData = selectedDate ? getDayData(selectedDate) : null;
+
+    // console.log(dayData)
 
     return (
         <main className={styles.container}>
             <Header />
 
             <section className={styles.cards}>
-                <TempoTotal />
+                <TempoTotal data={dayData} />
+                <h1>dayData: {dayData?.date}</h1>
 
                 <div className={styles.grupo}>
                     <Media />
