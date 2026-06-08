@@ -7,15 +7,13 @@ import Media from '../components/Media';
 import Destaque from '../components/Destaque';
 import Categoria from '../components/Categoria';
 
-import { getScreenTimeData } from '../services/screenTimeData';
-import { getTotalTime } from '../utils/getTotalTime';
+import { useState } from 'react';
+import { getDayData } from '../services/getDate';
 
-function Dashboard() {
-    const data = getScreenTimeData();
+function Dashboard({ data }) {
+    const [selectedDate, setSelectedDate] = useState(null);
 
-    const totalTime = getTotalTime(data[0].apps)
-
-    console.log(`total: ${totalTime} \n data: `, data);
+    const dayData = selectedDate ? getDayData(selectedDate) : null;
 
     return (
         <main className={styles.container}>
@@ -26,7 +24,7 @@ function Dashboard() {
 
                 <div className={styles.grupo}>
                     <Media />
-                    <Calendario />
+                    <Calendario days={data} daySelect={setSelectedDate} />
                 </div>
                 
                 <Destaque />
