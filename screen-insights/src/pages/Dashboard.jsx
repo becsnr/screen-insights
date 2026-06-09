@@ -23,11 +23,11 @@ function Dashboard({ data }) {
 
             <section className={styles.cards}>
                 <TempoTotal data={dayData} />
-                <h1>dayData: {dayData?.date}</h1>
+                {/* <h1>dayData: {dayData?.date}</h1> */}
 
                 <div className={styles.grupo}>
                     <Media />
-                    <Calendario days={data} daySelect={setSelectedDate} />
+                    <Calendario days={data} daySelect={setSelectedDate} selectedDate={selectedDate} />
                 </div>
                 
                 <Destaque />

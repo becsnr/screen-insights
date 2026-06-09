@@ -3,7 +3,8 @@
     flex-direction: column;
     gap: 10px;
 
-    max-width: 250px;
+    /* max-width: 250px; */
+    width: 100%;
 }
 
 .card {
@@ -11,12 +12,17 @@
     flex-direction: column;
     gap: 10px;
 
-    max-width: 250px;
+    max-width: 280px;
 }
 
 /* MOBILE */
-@media (max-width: 800px) {
+@media (max-width: 700px) {
+    .container {
+        flex-direction: row;
+    }
+
     .card {
-        max-width: 200px;
+        width: 250px;
+        height: 100px;
     } 
 }

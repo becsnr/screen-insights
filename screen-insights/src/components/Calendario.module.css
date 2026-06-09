@@ -8,10 +8,15 @@
 }
 
 button {
+    width: 32px;
+    height: 32px;
+
     border: none;
+    border-radius: 50%;
     background: none;
 
     font-size: 1rem;
+    /* padding: 4px 6px; */
 
     cursor: pointer;
 }
@@ -28,19 +33,43 @@ button {
     gap: 10px;
 }
 
-.dia {
+.dias {
     display: grid;
     grid-template-columns: repeat(7, 1fr);
     gap: 10px;
 }
 
+.dias button:hover {
+    background: #ded9e2;
+    color: #80a;
+} 
+
+.active {
+    background: #c0b9dd;
+    color: #80a;
+}
+
+.todo { /* botão mês inteiro */
+    width: 100%;
+
+    border-radius: 10px;
+    border: 1px solid #80a;
+    background: #ded9e2;
+    color: #80a;
+
+    font-weight: bold;
+}
+
 /* MOBILE */
-@media (max-width: 800px) {
+@media (max-width: 700px) {
     .card {
-        max-width: 210px;
+        width: 100%;
     } 
 
     button {
         font-size: .8rem;
+
+        width: 35px;
+        height: 35px;
     }
 }

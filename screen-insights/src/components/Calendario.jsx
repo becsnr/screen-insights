@@ -1,6 +1,6 @@
 import styles from './Calendario.module.css';
 
-function Calendario({ days, daySelect }) {
+function Calendario({ days, daySelect, selectedDate }) {
     function handleDayClick(date) {
         daySelect(date);
     }
@@ -17,11 +17,12 @@ function Calendario({ days, daySelect }) {
                     <button>S4</button>
                 </div>
 
-                <div className={styles.dia}>
+                <div className={styles.dias}>
                     {days.map(day => (
                         <button 
                             key={day.date} 
-                            onClick={() => handleDayClick(day.date)} 
+                            onClick={() => handleDayClick(day.date)}
+                            className={selectedDate === day.date ? styles.active : ""}
                         >
                             {day.day}
                         </button>
@@ -29,7 +30,7 @@ function Calendario({ days, daySelect }) {
                 </div>
             </div>
 
-            <button>mês inteiro</button>
+            <button className={styles.todo}>mês inteiro</button>
         </div>
     )
 }
