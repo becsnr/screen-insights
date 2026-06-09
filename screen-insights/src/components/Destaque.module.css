@@ -3,7 +3,9 @@
     flex-direction: column;
     gap: 5px;
 
-    max-width: 500px;
+    width: 100%;
+    height: 300px;
+    /* max-width: 500px; */
 }
 
 .destaque {
@@ -23,8 +25,9 @@
 }
 
 /* MOBILE */
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .card {
         max-width: 450px;
+        height: 200px;
     }
 }
