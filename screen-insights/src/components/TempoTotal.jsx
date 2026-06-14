@@ -1,13 +1,17 @@
 import styles from './TempoTotal.module.css';
 
 import { getTotalTime } from '../utils/getTotalTime';
+import { getWeekTotalData } from '../utils/getWeekTotalTime';
 import { formatMinutes } from '../utils/formatMinutes';
 
 function TempoTotal({ data }) {
     if (!data) return null;
 
-    const totalTime = getTotalTime(data.apps);
+    const totalTime = Array.isArray(data) ? getWeekTotalData(data) : getTotalTime(data.apps);
+
     const format = formatMinutes(totalTime);
+
+    // console.log(`Total de tempo: ${totalTime}`)
 
     return (
         <div className={styles.card}>

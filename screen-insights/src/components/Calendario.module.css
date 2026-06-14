@@ -39,7 +39,7 @@ button {
     gap: 10px;
 }
 
-.dias button:hover {
+.dias button:not(.active):hover, .semana button:not(.active):hover {
     background: #d8c3e9;
     color: #80a;
 } 

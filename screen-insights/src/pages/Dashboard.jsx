@@ -8,26 +8,47 @@ import Destaque from '../components/Destaque';
 import Categoria from '../components/Categoria';
 
 import { useState } from 'react';
-import { getDayData } from '../services/getDate';
+import { getDayData, getWeekData } from '../services/getDate';
 
 function Dashboard({ data }) {
     const [selectedDate, setSelectedDate] = useState(data[7].date);
 
+    const [selectedWeek, setSelectedWeek] = useState(null);
+
     const dayData = selectedDate ? getDayData(selectedDate) : null;
 
-    // console.log(dayData)
+    const weekData = selectedWeek ? getWeekData(selectedWeek) : null;
+
+    function handleDaySelect(date) {
+        setSelectedDate(date);
+        setSelectedWeek(null);
+    }
+
+    function handleWeekSelect(week) {
+        setSelectedWeek(week);
+        setSelectedDate(null);
+    }
+
+    const dataShow = weekData || dayData;
+
+    // console.log(weekData)
 
     return (
         <main className={styles.container}>
             <Header />
 
             <section className={styles.cards}>
-                <TempoTotal data={dayData} />
-                {/* <h1>dayData: {dayData?.date}</h1> */}
+                <TempoTotal data={dataShow} />
 
                 <div className={styles.grupo}>
                     <Media />
-                    <Calendario days={data} daySelect={setSelectedDate} selectedDate={selectedDate} />
+                    <Calendario
+                        days={data} 
+                        daySelect={handleDaySelect} 
+                        selectedDate={selectedDate} 
+                        weekSelect={handleWeekSelect} 
+                        selectedWeek={selectedWeek} 
+                    />
                 </div>
                 
                 <Destaque />

@@ -6,3 +6,15 @@ export function getDayData(date) {
         day => day.date === date
     );
 }
+
+// SEMANA
+export function getWeekData(week) {
+    const startDay = (week - 1) * 7 + 1;
+    const endDay = startDay + 6;
+
+    return screenTimeData.filter(
+        date => date.day >= startDay && date.day <= endDay
+    );
+}
+
+// MÊS

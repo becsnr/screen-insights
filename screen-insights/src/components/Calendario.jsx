@@ -1,8 +1,12 @@
 import styles from './Calendario.module.css';
 
-function Calendario({ days, daySelect, selectedDate }) {
+function Calendario({ days, daySelect, selectedDate, weekSelect, selectedWeek }) {
     function handleDayClick(date) {
         daySelect(date);
+    }
+
+    function handleWeekClick(week) {
+        weekSelect(week)
     }
 
     return (
@@ -11,10 +15,15 @@ function Calendario({ days, daySelect, selectedDate }) {
 
             <div className={styles.calendario}>
                 <div className={styles.semana}>
-                    <button>S1</button>
-                    <button>S2</button>
-                    <button>S3</button>
-                    <button>S4</button>
+                    {[1, 2, 3, 4, 5].map(week => (
+                        <button
+                            key={week}
+                            onClick={() => handleWeekClick(week)}
+                            className={selectedWeek === week ? styles.active : ""}
+                        >
+                            S{week}
+                        </button>
+                    ))}
                 </div>
 
                 <div className={styles.dias}>
