@@ -1,7 +1,7 @@
-// SEMANA TOTAL
+// SEMANA E MÊS TOTAL
 import { getTotalTime } from "./getTotalTime";
 
-export function getWeekTotalData(week) {
+export function getDaysTotalData(week) {
     const soma = week.reduce((cont, day) => {
         cont += getTotalTime(day.apps);
 

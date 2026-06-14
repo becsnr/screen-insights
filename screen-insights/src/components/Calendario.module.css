@@ -49,14 +49,22 @@ button {
     color: #fffaf0;
 }
 
-.todo { /* botão mês inteiro */
+.mes { 
     width: 100%;
 
     border-radius: 20px;
-    background: #75c9c8;
+    background: #75c9c87c;
     color: #80a;
 
     font-weight: bold;
+}
+
+.mes:not(.mesActive):hover {
+    background: #75c9c8a6;
+}
+
+.mesActive {
+    background:  #75c9c8;
 }
 
 /* MOBILE */
@@ -72,7 +80,7 @@ button {
         height: 35px;
     }
 
-    .todo {
+    .mes {
         font-size: .9rem;
     }
 }

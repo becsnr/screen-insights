@@ -1,12 +1,16 @@
 import styles from './Calendario.module.css';
 
-function Calendario({ days, daySelect, selectedDate, weekSelect, selectedWeek }) {
+function Calendario({ days, daySelect, selectedDate, weekSelect, selectedWeek, monthSelect, selectedMonth }) {
     function handleDayClick(date) {
         daySelect(date);
     }
 
     function handleWeekClick(week) {
-        weekSelect(week)
+        weekSelect(week);
+    }
+
+    function handleMounthClick() {
+        monthSelect();
     }
 
     return (
@@ -39,7 +43,12 @@ function Calendario({ days, daySelect, selectedDate, weekSelect, selectedWeek })
                 </div>
             </div>
 
-            <button className={styles.todo}>mês inteiro</button>
+            <button 
+                onClick={() => handleMounthClick()}
+                className={`${styles.mes} ${selectedMonth ? styles.mesActive : ""}`}
+            >
+                mês inteiro
+            </button>
         </div>
     )
 }

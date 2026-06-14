@@ -8,30 +8,50 @@ import Destaque from '../components/Destaque';
 import Categoria from '../components/Categoria';
 
 import { useState } from 'react';
-import { getDayData, getWeekData } from '../services/getDate';
+import { getDayData, getDaysData } from '../services/getDate';
 
 function Dashboard({ data }) {
     const [selectedDate, setSelectedDate] = useState(data[7].date);
 
     const [selectedWeek, setSelectedWeek] = useState(null);
 
+    const [selectedMonth, setSelectedMonth] = useState(false);
+
     const dayData = selectedDate ? getDayData(selectedDate) : null;
 
-    const weekData = selectedWeek ? getWeekData(selectedWeek) : null;
+    const weekData = selectedWeek ? getDaysData(selectedWeek) : null;
+
+    const monthData = data;
 
     function handleDaySelect(date) {
         setSelectedDate(date);
         setSelectedWeek(null);
+        setSelectedMonth(false);
     }
 
     function handleWeekSelect(week) {
         setSelectedWeek(week);
         setSelectedDate(null);
+        setSelectedMonth(false);
     }
 
-    const dataShow = weekData || dayData;
+    function handleMonthSelect() {
+        setSelectedMonth(true);
+        setSelectedWeek(null);
+        setSelectedDate(null);
+    }
 
-    // console.log(weekData)
+    let dataShow;
+
+    if (selectedMonth) {
+        dataShow = monthData;
+    } else if (selectedWeek) {
+        dataShow = weekData;
+    } else if (selectedDate) {
+        dataShow = dayData;
+    }
+
+    // console.log(monthData)
 
     return (
         <main className={styles.container}>
@@ -48,6 +68,8 @@ function Dashboard({ data }) {
                         selectedDate={selectedDate} 
                         weekSelect={handleWeekSelect} 
                         selectedWeek={selectedWeek} 
+                        monthSelect={handleMonthSelect}
+                        selectedMonth={selectedMonth}
                     />
                 </div>
                 

@@ -7,8 +7,8 @@ export function getDayData(date) {
     );
 }
 
-// SEMANA
-export function getWeekData(week) {
+// SEMANA E MÊS
+export function getDaysData(week) {
     const startDay = (week - 1) * 7 + 1;
     const endDay = startDay + 6;
 
@@ -16,5 +16,3 @@ export function getWeekData(week) {
         date => date.day >= startDay && date.day <= endDay
     );
 }
-
-// MÊS
