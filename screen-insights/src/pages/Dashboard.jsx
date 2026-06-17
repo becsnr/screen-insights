@@ -61,7 +61,7 @@ function Dashboard({ data }) {
                 <TempoTotal data={dataShow} />
 
                 <div className={styles.grupo}>
-                    <Media />
+                    <Media data={dataShow} />
                     <Calendario
                         days={data} 
                         daySelect={handleDaySelect} 

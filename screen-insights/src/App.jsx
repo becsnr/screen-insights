@@ -8,7 +8,7 @@ function App() {
 
   // const totalTime = getTotalTime(data[0].apps)
 
-  console.log(`data: `, data);
+  // console.log(`data: `, data);
 
   return (
     <>
