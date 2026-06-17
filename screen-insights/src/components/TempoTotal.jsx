@@ -2,7 +2,7 @@ import styles from './TempoTotal.module.css';
 
 import { getTotalTime } from '../utils/getTotalTime';
 import { getDaysTotalData } from '../utils/getWeekTotalTime';
-import { getMostUsedDay } from '../utils/mostUsed';
+import { getMostUsed } from '../utils/mostUsed';
 import { formatMinutes } from '../utils/formatMinutes';
 
 function TempoTotal({ data }) {
@@ -10,7 +10,7 @@ function TempoTotal({ data }) {
 
     const totalTime = Array.isArray(data) ? getDaysTotalData(data) : getTotalTime(data.apps);
 
-    const top3 = getMostUsedDay(data.date);
+    const top3 = getMostUsed(data);
     
     // console.log(top3);
 

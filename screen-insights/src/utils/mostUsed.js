@@ -1,20 +1,26 @@
-import { getDayData } from "../services/getDate";
+// APP + USADO
+export function getMostUsed(data) {
+    // DIA
+    if (!Array.isArray(data)) {
+        return [...data.apps]
+        .sort((a, b) => b.minutes - a.minutes)
+        .slice(0, 3)
+    }
 
-// APP + USADO DIA
-export function getMostUsedDay(date) {
-    const day = getDayData(date);
+    // SEMANA / MÊS
+    const lista = [];
 
-    const apps = day.apps;
+    for (const day of data) {
+        for (const app of day.apps) {
+            const existe = lista.find(item => item.name === app.name);
 
-    const appsOrdenados = [...apps].sort(
-        (a, b) => b.minutes - a.minutes
-    );
+            if (existe) {
+                existe.minutes += app.minutes
+            } else {
+                lista.push({...app})
+            }
+        }
+    }
 
-    return appsOrdenados.slice(0, 3);
-
-    // return apps.sort((a, b) => {b.minutes - a.minutes});
-
-    // return day.apps.reduce((acc, time) => {
-    //     return acc.minutes > time.minutes ? acc : time;
-    // }, day.apps[0]);
+    return lista.sort((a, b) => b.minutes - a.minutes).slice(0, 3);
 }
