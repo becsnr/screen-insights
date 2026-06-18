@@ -8,6 +8,28 @@
     /* max-width: 500px; */
 }
 
+.tituloCard {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+    margin-bottom: 10px;
+}
+
+.tituloCard div {
+    border-radius: 5px;
+
+    width: 40px;
+}
+
+.tituloCard h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 600;
+}
+
 .destaque {
     display: flex;
     flex-direction: row;
@@ -18,10 +40,20 @@
 }
 
 .icone {
-    background: violet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #eee6f8;
     border-radius: 5px 0 0 5px;
 
-    padding: 5px;
+    padding: 10px;
+    width: 50px;
+}
+
+.icone svg {
+    color: #7e3af2;
+    font-size: 1.2rem;
 }
 
 .time {
@@ -32,6 +64,6 @@
 @media (max-width: 900px) {
     .card {
         max-width: 450px;
-        height: 200px;
+        height: 220px;
     }
 }
