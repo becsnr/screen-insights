@@ -1,42 +1,45 @@
 import styles from './Destaque.module.css';
 
+import { dayHighlights } from '../utils/highlights';
+
 function Destaque() {
+    const appMostUsed = dayHighlights();
+
+    const destaques = [
+        {
+            titulo: "App mais usado",
+            nome: appMostUsed.name,
+            time: "(h min)",
+        },
+        {
+            titulo: "Dia com maior uso",
+            nome: "data",
+            time: "(h min)",
+        },
+        {
+            titulo: "Categoria favorita",
+            nome: "categoria",
+            time: "(h min)",         
+        }
+    ]
     return (
         <div className={styles.card}>
             <h3>Destaques do período</h3>
 
-            <div className={styles.destaque}>
-                <div className={styles.icone}>
-                    icon
-                </div>
-                
-                <div className={styles.info}>
-                    <p className={styles.titulo}>App mais usado</p>
-                    <p className={styles.res}>( h min)</p>
-                </div>
-            </div>
+            {destaques.map(item => (
+                <div key={item.titulo} className={styles.destaque}>
+                    <div className={styles.icone}>
+                        icon
+                    </div>
 
-            <div className={styles.destaque}>
-                <div className={styles.icone}>
-                    icon
-                </div>
+                    <div className={styles.info}>
+                        <p className={styles.titulo}>{item.titulo}</p>
+                        <p className={styles.appName}>{item.nome}</p>
+                    </div>
 
-                <div className={styles.info}>
-                    <p className={styles.titulo}>Dia com maior uso</p>
-                    <p className={styles.res}>( h min)</p>
+                    <p className={styles.time}>{item.time}</p>
                 </div>
-            </div>
-
-            <div className={styles.destaque}>
-                <div className={styles.icone}>
-                    icon
-                </div>
-
-                <div className={styles.info}>
-                    <p className={styles.titulo}>Categoria favorita</p>
-                    <p className={styles.res}>( h min)</p>
-                </div>
-            </div>
+            ))}
         </div>
     )
 }

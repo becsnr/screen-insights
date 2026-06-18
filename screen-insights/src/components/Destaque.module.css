@@ -24,6 +24,10 @@
     padding: 5px;
 }
 
+.time {
+    margin-left: auto;
+}
+
 /* MOBILE */
 @media (max-width: 900px) {
     .card {
