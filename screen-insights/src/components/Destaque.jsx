@@ -1,10 +1,12 @@
 import styles from './Destaque.module.css';
 
-import { dayHighlights } from '../utils/highlights';
+import { appHighlights, dayHighlights } from '../utils/highlights';
 import { formatMinutes } from '../utils/formatMinutes';
+import { getTotalTime } from '../utils/getTotalTime';
 
 function Destaque() {
-    const appMostUsed = dayHighlights();
+    const appMostUsed = appHighlights();
+    const dayMostUsed = dayHighlights();
 
     const destaques = [
         {
@@ -14,8 +16,8 @@ function Destaque() {
         },
         {
             titulo: "Dia com maior uso",
-            nome: "data",
-            time: "(h min)",
+            nome: dayMostUsed.date,
+            time: formatMinutes(getTotalTime(dayMostUsed.apps)),
         },
         {
             titulo: "Categoria favorita",
