@@ -1,5 +1,7 @@
 import styles from './TempoTotal.module.css';
 
+import { FaRegClock } from 'react-icons/fa6';
+
 import { getTotalTime } from '../utils/getTotalTime';
 import { getDaysTotalData } from '../utils/getWeekTotalTime';
 import { getMostUsed } from '../utils/mostUsed';
@@ -19,13 +21,19 @@ function TempoTotal({ data }) {
     return (
         <div className={styles.card}>
             <div className={styles.top}>
+                <div className={styles.icone}>
+                    <FaRegClock />
+                </div>
+
                 <div>
                     <h1>Tempo de tela</h1>
-                    <h2>{formatMinutes(totalTime)}</h2>
+                    {/* <h2>{formatMinutes(totalTime)}</h2> */}
                 </div>
 
                 <div className={styles.grafico}>grafico pizza</div>
             </div>
+
+            <h2 className={styles.time}>{formatMinutes(totalTime)}</h2>
             
             {top3.map(app => (
                 <p key={app.name}>{app.name} ---- {formatMinutes(app.minutes)}</p>

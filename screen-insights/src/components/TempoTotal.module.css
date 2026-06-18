@@ -11,7 +11,34 @@
 .top {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 10px;
+    /* justify-content: space-between; */
+}
+
+.icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #eee6f8;
+    border-radius: 10px;
+
+    padding: 10px;
+    width: 40px;
+
+    font-size: 1.1rem;
+    color: #7e3af2;
+}
+
+.time {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #7e3af2;
+    text-shadow: 0 1px 1px #0000007b;
+}
+
+.grafico {
+    margin-left: auto;
 }
 
 /* MOBILE */
