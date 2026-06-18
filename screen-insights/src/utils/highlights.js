@@ -27,3 +27,27 @@ export function dayHighlights() {
 
     return maior;
 }
+
+// CATEGORIA FAVORITA
+export function favCategory() {
+    const data = getScreenTimeData();
+
+    const lista = [];
+
+    for (const day of data) {
+        for (const app of day.apps) {
+            const existe = lista.find(item => item.category === app.category);
+
+            if (existe) {
+                existe.minutes += app.minutes
+            } else {
+                lista.push({
+                    category: app.category,
+                    minutes: app.minutes
+                })
+            }
+        }
+    }
+
+    return lista.sort((a, b) => b.minutes - a.minutes)[0];
+}

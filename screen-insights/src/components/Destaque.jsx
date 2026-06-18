@@ -1,12 +1,13 @@
 import styles from './Destaque.module.css';
 
-import { appHighlights, dayHighlights } from '../utils/highlights';
+import { appHighlights, dayHighlights, favCategory } from '../utils/highlights';
 import { formatMinutes } from '../utils/formatMinutes';
 import { getTotalTime } from '../utils/getTotalTime';
 
 function Destaque() {
     const appMostUsed = appHighlights();
     const dayMostUsed = dayHighlights();
+    const categoryFav = favCategory();
 
     const destaques = [
         {
@@ -21,8 +22,8 @@ function Destaque() {
         },
         {
             titulo: "Categoria favorita",
-            nome: "categoria",
-            time: "(h min)",         
+            nome: categoryFav.category,
+            time: formatMinutes(categoryFav.minutes),         
         }
     ]
     return (
