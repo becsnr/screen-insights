@@ -1,6 +1,11 @@
 import styles from './Categoria.module.css';
 
-function Categoria() {
+import { getCategory } from '../utils/getCategory';
+import { formatMinutes } from '../utils/formatMinutes';
+
+function Categoria({ data }) {
+    const categorias = getCategory(data);
+
     return (
         <div className={styles.card}>
             <h3>Uso por categoria</h3>
@@ -11,11 +16,15 @@ function Categoria() {
                 </div>
 
                 <div className={styles.categorias}>
-                    <p>categoria %</p>
-                    <p>categoria %</p>
-                    <p>categoria %</p>
-                    <p>categoria %</p>
-                    <p>categoria %</p>
+                    {categorias.map(item => (
+                        <div key={item.category} className={styles.item}>
+                            <p className={styles.category}>{item.category}</p>
+
+                            <p className={styles.percentage}>{item.percentage}%</p>
+
+                            <p className={styles.time}>{formatMinutes(item.minutes)}</p>
+                        </div>
+                    ))}
                 </div>
             </div>
         </div>

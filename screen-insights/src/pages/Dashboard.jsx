@@ -74,7 +74,7 @@ function Dashboard({ data }) {
                 </div>
                 
                 <Destaque />
-                <Categoria />
+                <Categoria data={dataShow} />
             </section>
         </main>
     )

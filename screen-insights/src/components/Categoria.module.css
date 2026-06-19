@@ -13,10 +13,20 @@
     justify-content: space-between;
 }
 
+.item {
+    display: grid;
+    grid-template-columns: 180px 60px 80px;
+    align-items: center;
+}
+
 /* MOBILE */
 @media (max-width: 900px) {
     .card {
         max-width: 450px;
         height: 200px;
+    }
+
+    .item {
+        grid-template-columns: 110px 40px 80px;
     }
 }
