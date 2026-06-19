@@ -1,18 +1,22 @@
 .card {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 5px;
 
     width: 100%;
     height: 300px;
-    /* max-width: 550px; */
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .top {
     display: flex;
     flex-direction: row;
     gap: 10px;
-    /* justify-content: space-between; */
 }
 
 .icone {
@@ -39,6 +43,22 @@
 
 .grafico {
     margin-left: auto;
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.bolinha {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
 }
 
 /* MOBILE */
@@ -46,5 +66,10 @@
     .card {
         max-width: 450px;
         height: 200px;
+    }
+
+    .grafico {
+        width: 150px;
+        height: 150px;
     }
 }
