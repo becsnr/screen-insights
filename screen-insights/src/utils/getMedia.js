@@ -2,7 +2,9 @@
 export function getMedia(data) {
     if (!Array.isArray(data)) {
         return {
+            notificationsTotal: data.notifications,
             notifications: data.notifications,
+            unlocksTotal: data.unlocks,
             unlocks: data.unlocks,
         };
     }
@@ -16,7 +18,9 @@ export function getMedia(data) {
     }
 
     return {
+        notificationsTotal: totalNotifications,
         notifications: Math.round(totalNotifications / data.length),
+        unlocksTotal: totalUnlocks,
         unlocks: Math.round(totalUnlocks / data.length),
     }
 }
