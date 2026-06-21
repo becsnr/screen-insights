@@ -40,7 +40,7 @@ function TempoTotal({ data }) {
 
                 <h2 className={styles.time}>{formatMinutes(totalTime)}</h2>
                 
-                <div>
+                <div className={styles.appTime}>
                     {top3.map((app, index) => (
                         <div key={app.name} className={styles.item}>
                             <span 
@@ -48,7 +48,19 @@ function TempoTotal({ data }) {
                                 style={{backgroundColor: COLORS[index]}} 
                             />
                             
-                            <p >{app.name} ---- {formatMinutes(app.minutes)}</p>
+                            <p>{app.name}</p>
+
+                            <div className={styles.barra}>
+                                <div 
+                                    className={styles.preenchimento}
+                                    style={{
+                                        width: `${(app.minutes / top3[0].minutes) * 100}%`
+                                    }}
+                                >
+                                </div>
+                            </div>
+
+                            <p className={styles.minutes}>{formatMinutes(app.minutes)}</p>
                         </div>
                     ))}
                 </div>

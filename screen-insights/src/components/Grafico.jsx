@@ -16,27 +16,8 @@ function Grafico({ data }) {
                     data={data}
                     dataKey="minutes"
                     nameKey="name"
-                    innerRadius={30}
-                    outerRadius={60}
-                    label={({ cx, cy, midAngle, innerRadius, outerRadius, percent }) => { //colocar a porcentagem dentro
-                        const radius = innerRadius + (outerRadius - innerRadius) * 0.5;
-
-                        const x = cx + radius * Math.cos(-midAngle * Math.PI / 180);
-                        const y = cy + radius * Math.sin(-midAngle * Math.PI / 180);
-
-                        return (
-                            <text
-                                x={x}
-                                y={y}
-                                textAnchor="middle"
-                                dominantBaseline="central"
-                                fill="white"
-                            >
-                                {`${(percent * 100).toFixed(0)}%`}
-                            </text>
-                        );
-                    }}
-                    labelLine={false}
+                    innerRadius="35%"
+                    outerRadius="80%"
                 >
                     {data.map((entry, index) => (
                         <Cell 
