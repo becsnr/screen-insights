@@ -1,6 +1,6 @@
-import { ResponsiveContainer, PieChart, Pie, Cell } from "recharts";
+import { ResponsiveContainer, PieChart, Pie, Cell, Tooltip } from "recharts";
 
-function Grafico({ data }) {
+function Grafico({ data, nameKey }) {
     const COLORS = [
         "#7E3AF2",
         "#6ED4D4",
@@ -15,7 +15,7 @@ function Grafico({ data }) {
                 <Pie 
                     data={data}
                     dataKey="minutes"
-                    nameKey="name"
+                    nameKey={nameKey}
                     innerRadius="35%"
                     outerRadius="80%"
                 >
@@ -26,6 +26,15 @@ function Grafico({ data }) {
                         />
                     ))}
                 </Pie>
+
+                <Tooltip 
+                    formatter={(value) => `${value}min`}
+                    contentStyle={{
+                        borderRadius: "8px",
+                        border: "none",
+                        backgroundColor: "#eee6f8d8"
+                    }}
+                />
             </PieChart>
         </ResponsiveContainer>
     )

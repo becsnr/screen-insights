@@ -26,7 +26,7 @@ function Categoria({ data }) {
 
             <div className={styles.container}>
                 <div className={styles.grafico}>
-                    <Grafico data={categorias} />
+                    <Grafico data={categorias} nameKey="category" />
                 </div>
 
                 <div className={styles.categorias}>

@@ -67,7 +67,7 @@ function TempoTotal({ data }) {
             </div>
 
             <div className={styles.grafico}>
-                <Grafico data={top3}/>
+                <Grafico data={top3} nameKey="name" />
             </div>
         </div>
     )
