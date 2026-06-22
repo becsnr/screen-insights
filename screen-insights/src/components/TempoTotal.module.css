@@ -14,7 +14,7 @@
 }
 
 .info h2 {
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 
 .top {
@@ -22,6 +22,8 @@
     flex-direction: row;
     align-items: center;
     gap: 10px;
+
+    /* margin-bottom: 20px; */
 }
 
 .top h1 {
@@ -111,6 +113,10 @@
 
     .top h1 {
         font-size: 1.3rem;
+    }
+
+    .info h2 {
+        margin-bottom: 10px;
     }
 
     .appTime {
