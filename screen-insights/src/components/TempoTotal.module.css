@@ -20,11 +20,13 @@
 .top {
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 10px;
 }
 
 .top h1 {
-    font-size: 1.8rem;
+    font-weight: 600;
+    font-size: 1.4rem;
 }
 
 .icone {
@@ -109,7 +111,7 @@
     }
 
     .top h1 {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
     }
 
     .appTime {
