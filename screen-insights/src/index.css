@@ -27,8 +27,8 @@ h2 {
     font-size: 1.2rem;
 }
 
-h2, h3 {
-    font-weight: normal;
+h1, h2, h3 {
+    font-weight: 600;
 }
 
 div[class*="_card_"] {
