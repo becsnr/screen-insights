@@ -1,5 +1,7 @@
 import { ResponsiveContainer, PieChart, Pie, Cell, Tooltip } from "recharts";
 
+import { formatMinutes } from "../utils/formatMinutes";
+
 function Grafico({ data, nameKey }) {
     const COLORS = [
         "#7E3AF2",
@@ -28,7 +30,7 @@ function Grafico({ data, nameKey }) {
                 </Pie>
 
                 <Tooltip 
-                    formatter={(value) => `${value}min`}
+                    formatter={(value) => `${formatMinutes(value)}`}
                     contentStyle={{
                         borderRadius: "8px",
                         border: "none",
