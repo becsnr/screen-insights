@@ -39,4 +39,5 @@ div[class*="_card_"] {
     
     background: #fffaf0;
     border-radius: 20px;
+    box-shadow: 1px 1px 2px #00000018;
 }
