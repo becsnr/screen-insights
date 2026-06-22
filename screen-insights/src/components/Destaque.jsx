@@ -31,6 +31,7 @@ function Destaque() {
             icone: FaRegHeart,       
         }
     ]
+    
     return (
         <div className={styles.card}>
             <div className={styles.tituloCard}>
