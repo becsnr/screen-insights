@@ -43,7 +43,7 @@
 
 .item {
     display: grid;
-    grid-template-columns: 20px 180px 60px 80px;
+    grid-template-columns: 20px 180px 60px 90px;
     align-items: center;
     /* gap: 5px; */
 
