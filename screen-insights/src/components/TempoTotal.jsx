@@ -14,7 +14,7 @@ function TempoTotal({ data }) {
 
     const totalTime = Array.isArray(data) ? getDaysTotalData(data) : getTotalTime(data.apps);
 
-    const topApps = getMostUsed(data, 3);
+    const topApps = getMostUsed(data, 5);
 
     const COLORS = [
         "#7E3AF2",

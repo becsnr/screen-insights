@@ -8,7 +8,7 @@
 
     width: 100%;
     max-width: 700px;
-    min-width: 450px;
+    min-width: 500px;
     height: 300px;
 
     overflow: hidden;
@@ -18,8 +18,6 @@
     display: flex;
     flex-direction: row;
     gap: 10px;
-
-    /* width: 100%; */
 }
 
 .topo {
@@ -28,7 +26,6 @@
     gap: 8px;
 
     width: 100%;
-    /* background-color: bisque; */
 }
 
 .top {
@@ -36,11 +33,6 @@
     flex-direction: row;
     align-items: center;
     gap: 10px;
-
-    /* width: 200px;
-    background-color: antiquewhite; */
-
-    /* margin-bottom: 20px; */
 }
 
 .top h1 {
@@ -81,23 +73,16 @@
     /* flex-shrink: 0; */
 
     z-index: 1;
-
-    /* background-color: burlywood; */
 }
 
 .appTime {
-    width: 350px;
-    max-width: 600px;
-    /* margin-top: -20px; */
-
     position: relative;
     z-index: 2; 
 
-    /* margin-top: -30px; */
-    /* transform: translateY(-30px); */
-    transform: translateY(clamp(-10px, -4vw, -10px));
+    width: clamp(250px, 25vw, 700px);
+    transform: translateY(clamp(-15px, -5vw, -10px));
 
-    /* background-color: beige; */
+    line-height: 1.8rem;
 }
 
 .item {
@@ -143,16 +128,13 @@
 /* MOBILE */
 @media (max-width: 900px) {
     .card {
-        /* width: 100%;*/
         max-width: 450px;
         min-width: 0;
-        height: 220px;
+        height: 250px;
     }
 
     .top {
-        /* background-color: antiquewhite; */
         width: 180px;
-        /* height: 60px; */
     }
 
     .top h1 {
@@ -160,14 +142,14 @@
     }
 
     .info .time {
-        /* background-color: burlywood; */
-        
         width: 175px;
     }
 
     .appTime {
         width: 100%;
-        /* margin-top: -5px; */
+        transform: translateY(4px);
+        
+        line-height: 1.2rem;
     }
 
     .item {
@@ -180,14 +162,10 @@
 
     /* .item:nth-child(n+4) {
         display: none;
-    } */
+    }  */
 
     .grafico {
         width: 125px;
         height: 125px;
-
-        /* margin-top: ; */
-
-        /* background-color: aquamarine; */
     }
 }
