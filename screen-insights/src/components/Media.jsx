@@ -30,7 +30,7 @@ function Media({ data }) {
                 const Icone = item.icone;
                 
                 return (
-                    <div className={styles.card}>
+                    <div key={item.titulo} className={styles.card}>
                         <div className={styles.topo}>
                             <div className={styles.icone}>
                                 <Icone />
