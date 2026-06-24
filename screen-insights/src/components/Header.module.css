@@ -1,10 +1,22 @@
 .titulo {
-    color: #80a1d4;
-    text-shadow: 0 1px 1px #00000051;
+    font-size: 2.2rem;
+    color: #60A5FA;
+    text-shadow: 0 1px 2px #00000061;
 }
 
 .subtitulo {
-    font-size: 1rem;
+    font-size: 1.1rem;
     font-weight: normal;
     color: #000000bc;
+}
+
+/* MOBILE */
+@media (max-width: 900px) {
+    .titulo {
+        font-size: 1.8rem;
+    }
+
+    .subtitulo {
+        font-size: 1rem;
+    }
 }
