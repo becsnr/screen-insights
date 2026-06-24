@@ -73,11 +73,23 @@ button {
         width: 100%;
     } 
 
+    .calendario {
+        gap: 5px;
+    }
+
     button {
         font-size: .8rem;
 
         width: 35px;
         height: 35px;
+    }
+
+    .semana {
+        gap: 5px;
+    }
+
+    .dias {
+        gap: 5px;
     }
 
     .mes {
